@@ -16,3 +16,27 @@ Result-oriented person with endless willing to research new horizons of web-deve
     * Visual Studio Code
     * A minor experience in Javascript
     * Gulp (low proficiency)
+
+## Code examples:
+
+```javascript
+function reverse(n) {
+    return parseInt(String(n).split("").reverse().join(""), 10);
+}
+```
+
+## Work expirience:
+
+    * Welcome Spain (training page,doesn't relate to the real project experience)
+
+https://github.com/ArtemDolgopolov/welcome-spain
+
+## Education:
+
+    * Javascript basics (in progress)
+
+https://learn.javascript.ru
+
+## English:
+
+Level B2 (English courses in InterClass school (Aktau) from Sep.2010 to May 2012)
