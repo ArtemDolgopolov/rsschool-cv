@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-width: 28rem;
+}
+
+div {
+    max-width: 500px;
+}
+
+a {
+    color: #000;
+}
+
+h1,
+h2 {
+    color: crimson;
+}
+
+ul,
+li {
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 122.5rem;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.container .header-flex {
+    display: flex;
+    height: 15rem;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #65af3c;
+}
+
+.container .content,
+.container .contact-info,
+.container .personal-summary,
+.container .skills,
+.container .code-examples,
+.container .work-expirience,
+.container .education,
+.container .english {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container h2 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.container li {
+    margin: 20px 0;
+}
+
+.container pre {
+    margin-right: 10vw;
+}
+
+.container p {
+    text-align: center;
+    margin-top: 30px;
+}
+
+footer {
+    display: flex;
+    background: #65af3c;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+footer .footer-icons {
+    width: 50px;
+    height: 50px;
+    margin: 1.1rem;
+}
+
+footer p {
+    text-align: center;
+    margin-bottom: 10px;
+}
