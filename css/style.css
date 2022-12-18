@@ -8,6 +8,10 @@ body {
     min-width: 28rem;
 }
 
+div {
+    max-width: 500px;
+}
+
 a {
     color: #000;
 }
@@ -17,10 +21,16 @@ h2 {
     color: crimson;
 }
 
+ul,
+li {
+    text-align: center;
+}
+
 .container {
     width: 100%;
     max-width: 122.5rem;
     margin: 0 auto;
+    margin-bottom: 20px;
 }
 
 header img {
@@ -40,10 +50,13 @@ header img {
 
 .container .content,
 .container .contact-info,
-.container .personal-summary .container .personal-summary,
-.container .code-examples {
+.container .personal-summary,
+.container .skills,
+.container .code-examples,
+.container .work-expirience,
+.container .education,
+.container .english {
     display: flex;
-    margin-top: 30px;
     align-items: center;
     justify-content: center;
     flex-direction: column;
