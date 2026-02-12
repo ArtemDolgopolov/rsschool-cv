@@ -71,6 +71,42 @@ footer {
   padding: 20px 40px;
 }
 
+pre {
+  background: #1e1e1e;
+  color: #dcdcdc;
+  padding: 15px;
+  border-radius: 8px;
+  overflow-x: auto;
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+.main-nav {
+  background: #365bbc;
+  padding: 10px 0;
+}
+
+.main-nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.main-nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  letter-spacing: 1px;
+  transition: opacity 0.2s ease;
+}
+
+.main-nav a:hover {
+  opacity: 0.7;
+}
+
 .header-main {
   display: flex;
   justify-content: space-between;
@@ -84,10 +120,23 @@ footer {
   object-fit: cover;
 }
 
-.contact-info-bar {
+.contact-info-bar ul {
   display: flex;
   justify-content: space-between;
-  padding: 20px;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 15px 40px 25px;
+  margin: 0;
+  gap: 15px;
+}
+
+.contact-info-bar li {
+  font-size: 14px;
+}
+
+.contact-info-bar a {
+  color: white;
+  text-decoration: underline;
 }
 
 main {
